@@ -62,21 +62,22 @@ You can also visualize the data using a given type of plot by using the '-p' or 
 
 Here are some examples of how to use the script:
 
+
 1.  Calculate the mean of a dataset:
     
-python stats.py data.csv -t mean
+    `python stats.py data.csv -t mean` 
     
 2.  Calculate the confidence interval of a dataset with a 90% confidence level:
 
-python stats.py data.csv -c 0.9
+    `python stats.py data.csv -c 0.9` 
     
 3.  Visualize the data using a scatter plot:
-
-python stats.py data.csv -p scatter -c 'red'
+ 
+    `python stats.py data.csv -p scatter -c 'red'` 
     
 4.  Perform a t-test on two datasets:
-    
-python stats.py data.csv -t t_test
+
+    `python stats.py data.csv -t t_test`
     
 This will split the dataset in half and perform a t-test on the two resulting datasets.
 
