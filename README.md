@@ -82,3 +82,7 @@ Here are some examples of how to use the script:
 This will split the dataset in half and perform a t-test on the two resulting datasets.
 
 For more information about the options and arguments of the script, you can use the '-h' or '--help' option.
+
+## License
+
+This project is licensed under the terms of the MIT license.
